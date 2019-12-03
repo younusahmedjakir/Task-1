@@ -1,0 +1,92 @@
+body {
+    background-color: #F3F3F4;
+    margin: 0;
+}
+.main {
+    background-color: #FFFFFF;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.page-header {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 250px;
+    height: 120px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.list-header {
+    display: flex;
+    justify-content: space-between;
+}
+.list-header-two {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    padding: 0;
+}
+.batsman-name {
+    color: #9ABED8;
+}
+.list-item {
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.list-item-gray {
+    background-color: #F2F2F2;
+}
+.list-score {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    padding: 0;
+}
+.list-item-white {
+    background-color: #FFFFFF;
+}
+.list-align {
+    display: flex;
+    justify-content: left;
+}
+.align {
+    text-align: left;
+}
+.list-header-three {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 0;
+}
+.font-bold {
+    font-weight: bold;
+}
+.text-margin {
+    /* margin: 10px; */
+    padding: 30px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .list-header-three {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding: 0;
+    }
+}
+@media (max-width: 767px) {
+    .list-header-three {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding: 0;
+        margin: 5px;
+    }
+}
